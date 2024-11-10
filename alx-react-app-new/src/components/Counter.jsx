@@ -15,8 +15,8 @@ function Counter () {
   return (
       <div>
           <p>{count}</p>
-          <button onClick={handleIncrease}>Increase</button>
-          <button onClick={handleDecrease}>Decrease</button>
+          <button onClick={handleIncrease}>Increment</button>
+          <button onClick={handleDecrease}>Decrement</button>
           <button onClick={handleReset}>Reset</button>
     </div>
   )
