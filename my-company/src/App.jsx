@@ -2,7 +2,7 @@ import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import Home from './Home';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 import Layout from './Layout';
 import About from './About';
 import Contact from './Contact';
