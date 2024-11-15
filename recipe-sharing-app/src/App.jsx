@@ -8,9 +8,13 @@ import RecipeDetails from './components/RecipeDetails';
 function App (){
     return (
         <Router>
-            <AddRecipeForm />
-            <RecipeList />
             <Routes>
+                <Route path='/' element={
+                    <>
+                        <AddRecipeForm />
+                        <RecipeList />
+                    </>
+                } />
                 <Route path='/recipe/:recipeId' element={<RecipeDetails />} />
             </Routes>
         </Router>

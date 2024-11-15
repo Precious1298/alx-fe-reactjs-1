@@ -9,9 +9,10 @@ const AddRecipeForm = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        addRecipe({ id: Date.now(), title, description });
+        addRecipe( {id: Date.now(), title, description} );
+        console.log(useRecipeStore.getState().recipes)
         setTitle('');
-        setDescription('');
+        setDescription( '' );
     };
 
     return (
