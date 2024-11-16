@@ -17,13 +17,11 @@ function App (){
                         <SearchBar />
                         <AddRecipeForm />
                         <RecipeList />
-                        <Link to="/favorites">Favorites</Link>
-                        <Link to='/recommendations'>Recommendations</Link>
+                        <FavoritesList />
+                        <RecommendationsList />
                     </>
                 } />
                 <Route path='/recipe/:recipeId' element={<RecipeDetails />} />
-                <Route path='/favorites' element={<FavoritesList />} />
-                <Route path='/recommendations' element={<RecommendationsList />} />
             </Routes>
         </Router>
   )
