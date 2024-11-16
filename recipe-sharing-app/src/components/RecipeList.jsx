@@ -1,4 +1,5 @@
 // RecipeList component
+import {Link} from 'react-router-dom';
 import useRecipeStore from './recipeStore';
 
 const RecipeList = () => {
@@ -16,6 +17,8 @@ const RecipeList = () => {
                     <p>{recipe.description}</p>
                 </div>
             ) )}
+
+            <Link to="/">Go Home</Link>
         </div>
     );
 };
