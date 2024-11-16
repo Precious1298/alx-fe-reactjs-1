@@ -5,7 +5,7 @@ import RecipeList from './components/RecipeList';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import RecipeDetails from './components/RecipeDetails';
 import SearchBar from './components/SearchBar';
-import FavoritesList from './components/FavoriteList';
+import FavoritesList from './components/FavoritesList';
 import RecommendationsList from './components/RecommendationsList';
 
 function App (){
